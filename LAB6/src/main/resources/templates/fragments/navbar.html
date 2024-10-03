@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+<div th:fragment="navbar">
+    <nav>
+        <button><a th:href="@{/index/eventos}">Eventos</a></button>
+        <button><a th:href="@{/index/artistas}">Artistas</a></button>
+        <button><a href="/contacto">Contacto</a></button>
+    </nav>
+</div>
+</body>
+</html>
